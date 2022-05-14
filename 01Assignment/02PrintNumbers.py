@@ -1,0 +1,9 @@
+count = 0
+for i in range(1000,2000):
+    if count % 10 == 0:
+        print()
+        print(i, end = " ")
+    else:
+        print(i, end = " ")
+    count += 1
+    
