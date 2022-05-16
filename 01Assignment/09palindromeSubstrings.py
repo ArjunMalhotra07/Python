@@ -1,4 +1,4 @@
-testString = "nitin"
+testString = "madam "
 
 def everySubstring(testString):
     length = len(testString)
@@ -13,7 +13,9 @@ def everySubstring(testString):
     return(allSubstrings)
     
 ansArray = everySubstring(testString)
-print("All Substrings : ",ansArray)
+print("All Substrings : ", ansArray)
+
+print()
 
 def palindrome(ansArray):
     newAnsArray = []
@@ -26,8 +28,6 @@ def palindrome(ansArray):
 
         if reversedString == testWord:
             newAnsArray.append(reversedString)
-        
-        
-    print("Palindromic Substrings : ",newAnsArray)
-    
-palindrome(ansArray)
+    return newAnsArray
+
+print("Palindromic Substrings : ", palindrome(ansArray))
