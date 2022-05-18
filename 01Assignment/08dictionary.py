@@ -7,7 +7,6 @@ last = inString[len(inString)-1]
 for i in range (0, len(inString)-1):
     if inString[i] not in dictionaryMap:
         for j in range (i+1, len(inString)):
-
                 if inString[i] == inString[j]:
                     count += 1  
         dictionaryMap[inString[i]] = count + 1

@@ -1,4 +1,4 @@
-testString = "madam "
+testString = "madam"
 
 def everySubstring(testString):
     length = len(testString)
