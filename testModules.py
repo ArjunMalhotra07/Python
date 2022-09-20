@@ -16,5 +16,4 @@ def sortList(listOfNumbers):
         for j in range(0 , len(listOfNumbers)-i-1):
             if listOfNumbers[j] > listOfNumbers[j+1]:
                 listOfNumbers[j] , listOfNumbers[j+1] = listOfNumbers[j+1] , listOfNumbers[j]
-
     return(listOfNumbers)

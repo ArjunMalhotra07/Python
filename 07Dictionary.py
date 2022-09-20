@@ -5,3 +5,4 @@ a={
     'CKCS': 78
 }
 print(a['Arjun'])
+print(type(a))

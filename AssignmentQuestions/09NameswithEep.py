@@ -12,5 +12,3 @@ for i in range(0, len(nameList)):
         namesWithEep.append(nameList[i])
 
 print("Answer List : ",namesWithEep)
-
-    

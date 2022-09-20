@@ -5,3 +5,4 @@ print("Length of List", len(a))
 a.append(56)
 a[1]="Malhotra"
 print(a)
+print(type(a))

@@ -15,13 +15,14 @@ finalAns = primeOrNot(a)
 
 if finalAns == False:
     for i in range(a-1, a//2, -1):
-        finalAnsLeft = primeOrNot(i)
-        if finalAnsLeft == True:
+        if primeOrNot(i) == True:
             break
-    m = a
-    while primeOrNot(m) != True:
-        m+=1
-        continue
+
+    for i in range(a+1, a+a//2, +1):
+        if primeOrNot(i) == True:
+            break
+        else:
+            continue
 
 
 

@@ -1,4 +1,5 @@
-testString = "madam"
+print()
+testString = input("Enter any String to get its Paindrome : ")
 
 def everySubstring(testString):
     length = len(testString)
